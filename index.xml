@@ -1,0 +1,52 @@
+[
+  {
+    "name": "dotnet50",
+    "version": "1.0.1",
+    "displayName": ".NET 5.0",
+    "description": "Stack with .NET 5.0",
+    "type": "stack",
+    "tags": [
+      "dotnet"
+      "2.1.0",
+      "2.0.0"
+    ],
+    "icon": "https://developers.redhat.com/sites/default/files/styles/large/public/dotnet-logo3x3.jpg",
+    "projectType": "dotnet",
+    "language": "dotnet",
+    currentVersion: 2.1.0
+    otherVersion: ["2.0.0"]
+    "links": {
+      "self": "devfile-catalog/dotnet50:latest"
+    },
+    "resources": [
+      "devfile.yaml"
+    ],
+    "starterProjects": [
+      "s2i-example"
+    ]
+  },
+  {
+    "name": "dotnet60",
+    "version": "1.0.0",
+    "displayName": ".NET 6.0",
+    "description": "Stack with .NET 6.0",
+    "type": "stack",
+    "tags": [
+      "dotnet",
+      "2.1.0"
+    ],
+    "icon": "https://developers.redhat.com/sites/default/files/styles/large/public/dotnet-logo3x3.jpg",
+    "projectType": "dotnet",
+    "language": "dotnet",
+    currentVersion: 2.1.0
+    "links": {
+      "self": "devfile-catalog/dotnet60:latest"
+    },
+    "resources": [
+      "devfile.yaml"
+    ],
+    "starterProjects": [
+      "s2i-example"
+    ]
+  },
+]
