@@ -44,12 +44,6 @@ samples:
     displayName: Basic Python
     description: A simple Hello World application using Python
     icon: https://www.python.org/static/community_logos/python-logo-generic.svg
-    # introduce new optional fields - "currentVersion", "otherVersion"
-    # represents the main branch version, and the additional devfile version supported for this sample
-    # in this case, the 2.0.0 devfile sample will be under the 2.0.0 branch
-    currentVersion: 2.2.0-latest
-    otherVersion: ["2.0.0"]
-    # can also show devfile versions supported in the tag, for registryviewer to show
     tags: ["Python", "2.0.0", "2.1.0", "2.2.0-latest"]
     projectType: python
     language: python
