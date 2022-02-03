@@ -5,49 +5,23 @@ samples:
     description: A simple Hello World Node.js application
     icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg
     tags: ["NodeJS", "Express"]
+    devfileVersions: ["2.0.0", "2.2.0"]
     projectType: nodejs
     language: nodejs
     provider: Red Hat
-    git:
-      remotes:
-        origin: https://github.com/nodeshift-starters/devfile-sample.git
-  - name: code-with-quarkus
-    displayName: Basic Quarkus
-    description: A simple Hello World Java application using Quarkus
-    icon: https://design.jboss.org/quarkus/logo/final/SVG/quarkus_icon_rgb_default.svg
-    tags: ["Java", "Quarkus"]
-    projectType: quarkus
-    language: java
-    provider: Red Hat
-    git:
-      remotes:
-        origin: https://github.com/devfile-samples/devfile-sample-code-with-quarkus.git
-  - name: java-springboot-basic
-    displayName: Basic Spring Boot
-    description: A simple Hello World Java Spring Boot application using Maven
-    icon: https://spring.io/images/projects/spring-edf462fec682b9d48cf628eaf9e19521.svg
-    tags: ["Java", "Spring"]
-    projectType: springboot
-    language: java
-    provider: Red Hat
-    git:
-      remotes:
-        origin: https://github.com/devfile-samples/devfile-sample-java-springboot-basic.git
-  - name: python-basic
-    displayName: Basic Python
-    description: A simple Hello World application using Python
-    icon: https://www.python.org/static/community_logos/python-logo-generic.svg
-    # introduce new optional fields - "currentVersion", "otherVersion"
-    # represents the main branch version, and the additional devfile version supported for this sample
-    # in this case, the 2.0.0 devfile sample will be under the 2.0.0 branch
-    currentVersion: 2.2.0-latest
-    otherVersion: ["2.0.0"]
-    # can also show devfile versions supported in the tag, for registryviewer to show
-    tags: ["Python", "2.0.0", "2.2.0-latest"]
-    projectType: python
-    language: python
-    provider: Red Hat
-    git:
-      remotes:
-        origin: https://github.com/yangcao77/devfile-sample-python-basic
-
+    versions:
+    - version: 1.0.1
+      devfileVersion: 2.0.0
+      git:
+        url: https://github.com/nodeshift-starters/devfile-sample.git
+        revision: "1.0.1-branch"
+    - version: 1.1.0
+      devfileVersion: 2.2.0
+      git:
+        url: https://github.com/nodeshift-starters/devfile-sample-1.1.x.git
+        revision: "1.1.0-outerloop-with-dockerfile"
+    - version: 1.1.1
+      devfileVersion: 2.2.0
+      git:
+        url: https://github.com/nodeshift-starters/devfile-sample-1.1.x.git
+        revision: "1.1.1-innerloop-with-dockerfile"
