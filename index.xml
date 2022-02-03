@@ -22,7 +22,23 @@
     "resources": [
       "devfile.yaml"
     ],
-    "starterProjects": [
-      "nodejs-starter"
+    "versions": [
+      {
+        version: "1.0.1",
+          schemaVersion: "2.0.0",
+          description: "2.0.0 nodejs stack",
+          "icon": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg",
+          "tags": [
+            "NodeJS",
+            "Express",
+            "ubi8"
+          ],
+          "starterProjects": [
+            "nodejs-starter"
+          ],
+      }
+      - version: 1.1.0
+        default: true
+      - version: 1.2.0
     ]
   },
