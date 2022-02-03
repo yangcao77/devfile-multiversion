@@ -12,16 +12,19 @@ samples:
     versions:
     - version: 1.0.1
       devfileVersion: 2.0.0
+      description: devfile 2.0.0 support
       git:
         url: https://github.com/nodeshift-starters/devfile-sample.git
         revision: "1.0.1-branch"
     - version: 1.1.0
       devfileVersion: 2.2.0
+      description: devfile 2.2.0 with outerloop dockerfile support
       git:
         url: https://github.com/nodeshift-starters/devfile-sample-1.1.x.git
-        revision: "1.1.0-outerloop-with-dockerfile"
+        revision: "1.1.0-outerloop-dockerfile"
     - version: 1.1.1
       devfileVersion: 2.2.0
+      description: devfile 2.2.0 with innerloop dockerfile support
       git:
         url: https://github.com/nodeshift-starters/devfile-sample-1.1.x.git
-        revision: "1.1.1-innerloop-with-dockerfile"
+        revision: "1.1.1-innerloop-dockerfile"
