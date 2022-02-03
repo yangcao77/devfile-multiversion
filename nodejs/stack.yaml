@@ -1,12 +1,10 @@
 stackName: nodejs
+stackDescription: "Nodejs Stack"
 versions:
 - version: 1.0.1
-  devfileVersion: 2.0.0
-  description: devfile 2.0.0 support
+  git:
+    url:
+    revision:
 - version: 1.1.0
-  devfileVersion: 2.1.0
-  description: devfile 2.1.0 support
+  default: true
 - version: 1.2.0
-  devfileVersion: 2.2.0
-  description: devfile 2.2.0 support
-defaultVersion: 1.1.0
