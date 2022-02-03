@@ -1,5 +1,5 @@
-stackName: nodejs
-stackDescription: "Nodejs Stack"
+name: nodejs
+description: "Nodejs Stack"
 versions:
 - version: 1.0.1
   git:
