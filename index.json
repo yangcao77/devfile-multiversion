@@ -26,7 +26,7 @@
             "nodejs-starter"
           ],
           "links": {
-            "self": "devfile-catalog/nodejs:2.0.0"
+            "self": "devfile-catalog/nodejs:1.0.1"
           },
           "resources": [
             "devfile.yaml"
@@ -46,7 +46,7 @@
             "nodejs-starter"
           ],
           "links": {
-            "self": "devfile-catalog/nodejs:2.1.0"
+            "self": "devfile-catalog/nodejs:1.1.0"
           },
           "resources": [
             "devfile.yaml"
@@ -67,7 +67,7 @@
             "nodejs-starter"
           ],
           "links": {
-            "self": "devfile-catalog/nodejs:2.2.0"
+            "self": "devfile-catalog/nodejs:1.2.0"
           },
           "resources": [
             "devfile.yaml"
