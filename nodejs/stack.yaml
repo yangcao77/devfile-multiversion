@@ -3,11 +3,11 @@ displayName: Node.js Runtime
 description: Stack with Node.js 14
 icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg
 versions:
-- version: 1.0.1
-  git:
-    url: https://github.com/yangcao77/devfile-multiversion-alterrepo
-    subDir: nodejs/1.0.1
-    revision: 1.0.1-branch
-- version: 1.1.0
-  default: true #should have one and only one default version
-- version: 1.2.0
+  - version: 1.0.1
+    git:
+      url: https://github.com/yangcao77/devfile-multiversion-alterrepo
+      subDir: nodejs/1.0.1
+      revision: 1.0.1-branch
+  - version: 1.1.0
+    default: true #should have one and only one default version
+  - version: 1.2.0
